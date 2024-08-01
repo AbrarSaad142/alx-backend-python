@@ -2,9 +2,9 @@
 """function sum_mixed_list decleration"""
 
 
-from typing import List
+from typing import List, Union
 
 
-def sum_mixed_list(input_list: List[float]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[int,float]]) -> float:
     """return a sum of all nums inside a list"""
-    return sum(input_list)
+    return sum(mxd_lst)
